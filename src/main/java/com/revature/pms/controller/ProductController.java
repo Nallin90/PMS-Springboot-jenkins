@@ -189,4 +189,9 @@ public class ProductController {
         return "Order with qoh less than " + productMinStock + " should be reordered immediately..";
     }
 
+    @GetMapping()
+    public String welcome(){
+        return "Hello Revature";
+    }
+
 }
