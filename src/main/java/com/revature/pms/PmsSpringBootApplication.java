@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @SpringBootApplication
 @EnableAspectJAutoProxy
 public class PmsSpringBootApplication {
-
+//test comment for jenkins
 	@Autowired
 	Product product1;
 
